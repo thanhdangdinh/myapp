@@ -39,3 +39,25 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem 'bootstrap-sass'
+gem 'haml-rails'
+gem 'high_voltage'
+gem 'therubyracer', :platform=>:ruby
+gem 'unicorn'
+gem 'unicorn-rails'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
+  gem 'guard-bundler'
+  gem 'guard-rails'
+  gem 'html2haml'
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_layout'
+  gem 'rb-fchange', :require=>false
+  gem 'rb-fsevent', :require=>false
+  gem 'rb-inotify', :require=>false
+end
+
